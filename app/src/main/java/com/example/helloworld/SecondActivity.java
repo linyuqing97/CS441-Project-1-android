@@ -13,8 +13,8 @@ public class SecondActivity extends AppCompatActivity {
 
         if(getIntent().hasExtra("com.example.helloworld.Something")){
             TextView TV = (TextView) findViewById(R.id.secondTextView);
-            String name = getIntent().getExtras().getString("com.example.helloworld.Something");
-            TV.setText(name);
+           // String name = getIntent().getExtras().getString("com.example.helloworld.Something");
+            //TV.setText(name);
         }
     }
 }
