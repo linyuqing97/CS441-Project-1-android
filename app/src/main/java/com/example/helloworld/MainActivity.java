@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
                 //result.setText("Hello World from "+name.getText());
                 Intent starIntent = new Intent(getApplicationContext(),SecondActivity.class);
-                starIntent.putExtra("com.example.helloworld.Something","HELLO WORLD FROM "+ name.getText());
+                starIntent.putExtra("com.example.helloworld.Something", " "+name.getText());
                 startActivity(starIntent);
 
             }
