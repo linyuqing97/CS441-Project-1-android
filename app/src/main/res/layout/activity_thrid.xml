@@ -15,8 +15,28 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:text="TextView"
-        android:textColor="#4CAF50"
+        android:textAllCaps="false"
+        android:textColor="#009688"
+        android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.235"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="176dp" />
+        tools:layout_editor_absoluteY="157dp" />
+
+    <ImageView
+        android:id="@+id/myImage"
+        android:layout_width="146dp"
+        android:layout_height="151dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:src="@drawable/bearcat"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/finalTextView"
+        app:srcCompat="@mipmap/ic_launcher" />
 </android.support.constraint.ConstraintLayout>

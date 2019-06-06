@@ -18,6 +18,7 @@ public class SecondActivity extends AppCompatActivity {
         setContentView(R.layout.activity_second);
 
         Button yesButton= (Button)findViewById(R.id.YesButton);
+        Button noButton = (Button)findViewById(R.id.NoButton);
         TextView TV = (TextView)findViewById(R.id.secondTextView);
 
             String name = getIntent().getExtras().getString("com.example.helloworld.Something");
@@ -29,10 +30,21 @@ public class SecondActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent starIntent = new Intent(getApplicationContext(), ThridActivity.class);
                 String name = getIntent().getExtras().getString("com.example.helloworld.Something");
-                starIntent.putExtra("com.example.helloworld.yes","HELLO WORLD FROM "+ name);
+                starIntent.putExtra("com.example.helloworld.yes","Hey bearcat "+ name+",say hello to the world!");
                 startActivity(starIntent);
             }
         });
+
+        noButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent starIntent = new Intent(getApplicationContext(), ThridActivity.class);
+                String name = getIntent().getExtras().getString("com.example.helloworld.Something");
+                starIntent.putExtra("com.example.helloworld.no","Hello world from "+ name);
+                startActivity(starIntent);
+            }
+        });
+
 
     }
 
