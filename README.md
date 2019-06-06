@@ -2,7 +2,7 @@
 This is my first project on Anroid Studio.
 
 Objective:
-This project will ask users to input their name first. Than it will ask users' universities, if the user from Binghamton univerisy it will out put "Hey Bucats, let's say hello to the world" with a bearcat image, otherwise, it will just promopt "Hello World from the user".
+This project will ask users to input their name first. Than it will ask users' universities, if the user from Binghamton univerisy it will out put "Hey Bucats, let's say hello to the world" with a bearcat image, otherwise, it will just promopt "Hello World from the user".Sinee I stay on campus this summer, why not using bearcat?
 
 This project has three activity pages.
     The first page will ask user's name,with a Plain text prompt.Then, a submit button which creates a intent and put uses's name imformation to the second and thrid pages with a key.
